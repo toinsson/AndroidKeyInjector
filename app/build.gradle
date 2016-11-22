@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 5
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        applicationId "net.pocketmagic.keyinjector"
+        minSdkVersion 5
+        targetSdkVersion 5
+
+        ndk {
+            moduleName "input"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/Android.mk'
+        }
+    }
+}

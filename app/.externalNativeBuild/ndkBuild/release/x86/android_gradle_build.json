@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/home/antoine/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "input-release-x86": {
+      "buildCommand": "/home/antoine/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/lib /home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/obj/local/x86/libinput.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "input",
+      "files": [
+        {
+          "src": "/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/src/main/jni/input.c",
+          "flags": "\"-gcc-toolchain\" \"/home/antoine/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64\" \"-target\" \"i686-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-O2\" \"-DNDEBUG\" \"-I/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-mstackrealign\" \"-isystem\" \"/home/antoine/Android/Sdk/ndk-bundle/platforms/android-9/arch-x86/usr/include\""
+        }
+      ],
+      "output": "/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/obj/local/x86/libinput.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cCompilerExecutable": "/home/antoine/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

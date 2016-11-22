@@ -1,0 +1,32 @@
+{
+  "buildFiles": [
+    "/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/home/antoine/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/src/main/jni/Android.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "input-release-mips": {
+      "buildCommand": "/home/antoine/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/src/main/jni/Android.mk APP_ABI\u003dmips NDK_ALL_ABIS\u003dmips NDEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/lib /home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/obj/local/mips/libinput.so",
+      "toolchain": "toolchain-mips",
+      "abi": "mips",
+      "artifactName": "input",
+      "files": [
+        {
+          "src": "/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/src/main/jni/input.c",
+          "flags": "\"-gcc-toolchain\" \"/home/antoine/Android/Sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/linux-x86_64\" \"-target\" \"mipsel-none-linux-android\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fmessage-length\u003d0\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-mips32\" \"-O2\" \"-DNDEBUG\" \"-I/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/src/main/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/home/antoine/Android/Sdk/ndk-bundle/platforms/android-9/arch-mips/usr/include\""
+        }
+      ],
+      "output": "/home/antoine/Documents/owndev/android/AndroidKeyInjector1/app/build/intermediates/ndkBuild/release/obj/local/mips/libinput.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-mips": {
+      "cCompilerExecutable": "/home/antoine/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
